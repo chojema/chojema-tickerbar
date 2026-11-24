@@ -2,7 +2,7 @@
 
 주요 일정과 메모를 화면 가장자리에 흐르는 띠로 보여 주는 Windows 앱입니다. 데이터는 PC에만 저장되며 외부로 전송하지 않습니다.
 
-[English](#english)
+한국어 | [English](README.en.md)
 
 ## 설치
 
@@ -33,17 +33,3 @@
 ## 라이선스
 
 [MIT](LICENSE)
-
----
-
-## English
-
-Chojema TickerBar is a Windows app that scrolls your key appointments and notes along the edge of the screen. All data stays on your PC.
-
-**Install**: Install the [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/download/dotnet/10.0), then download `ChojemaTickerBar.exe` from [Releases](https://github.com/chojema/chojema-tickerbar/releases/latest) and run it. The app is unsigned, so Windows may show a warning on first launch; choose **More info**, then **Run anyway**. To start it at sign-in, put a shortcut in the folder opened by `shell:startup`.
-
-**Use**: Double-click the ticker or the tray icon to manage items. Enter dates as `12-1`, `2026-12-01`, or `12-1 14:30`, or leave the date empty for a note. Items can repeat daily, weekly, monthly, or yearly. Items due within 24 hours (1 hour for daily items) are marked **[임박]** (due soon), and missed recurring items **[지연]** (overdue). The display settings tab controls the monitor, edge, direction, date badge, and always-on-top mode. The interface is in Korean.
-
-**Data**: `%LOCALAPPDATA%\Chojema TickerBar\state.json`
-
-**License**: [MIT](LICENSE).
