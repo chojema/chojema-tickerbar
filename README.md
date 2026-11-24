@@ -30,20 +30,6 @@
 
 앱을 삭제할 때는 실행 파일과 이 폴더를 지우면 됩니다.
 
-## 소스에서 빌드
-
-.NET 10 SDK가 필요합니다.
-
-```powershell
-dotnet run --project .\ChojemaTickerBar.csproj
-dotnet run --project .\tests\TickerBar.Checks.csproj
-dotnet publish .\ChojemaTickerBar.csproj -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -p:DebugType=None
-```
-
-## 버전
-
-[유의적 버전](https://semver.org/lang/ko/)을 따릅니다. `주.부.수`에서 저장 데이터와 호환되지 않는 변경은 주 번호, 기능 추가는 부 번호, 버그 수정은 수 번호를 올립니다. 변경 내역은 [Releases](https://github.com/chojema/chojema-tickerbar/releases)에 있습니다.
-
 ## 라이선스
 
 [MIT](LICENSE)
@@ -60,4 +46,4 @@ Chojema TickerBar is a Windows app that scrolls your key appointments and notes 
 
 **Data**: `%LOCALAPPDATA%\Chojema TickerBar\state.json`
 
-**Versioning**: [Semantic Versioning](https://semver.org/). **License**: [MIT](LICENSE).
+**License**: [MIT](LICENSE).
